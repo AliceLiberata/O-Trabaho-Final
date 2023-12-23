@@ -1,0 +1,122 @@
+#mascotis{
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: -130px;
+ }
+ #mascotisI{
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
+    margin-top: -100px;
+    float: right;
+ }
+
+#navg:hover{
+    color: #100303;
+    background-color: #ca9c59;
+}
+
+.botoes{
+    flex-direction: row;
+    text-align: center;
+    column-gap: 50px;
+}
+.botao{
+    background-color: #825b4c;
+    color: #230b0b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.botao:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #100303;
+    background-color: #ca9c59;
+}
+
+#margem{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.quadros{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#im{
+    height: 250px;
+    width: 275px;
+}
+
+.pisca{
+    font-size: 35px;
+    animation-name: piscamuito;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes piscamuito{
+    0% { color: #739da4;  color:#79e2f0 }
+    50% { color: #79e2f0;  color:#739da4 }
+    100% { color: #739da4;  color:#79e2f0 }
+}
+
+.container{
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
+}
+.bloco1{
+    height: 100px;
+    width: 100px;
+    background-color: #825b4c;
+    font-size: 40px;
+    text-align: center;
+    line-height: 92px;
+}
+.bloco2{
+    height: 100px;
+    width: 100px;
+    background-color: #825b4c;
+    font-size: 40px;
+    text-align: center;
+    line-height: 92px;
+}
+.bloco3{
+    height: 100px;
+    width: 100px;
+    background-color: #825b4c;
+    font-size: 40px;
+    text-align: center;
+    line-height: 92px;
+}
+#pisque{
+    animation-name: pisquemuito;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes pisquemuito{
+    0% {background-color: #825b4c;}
+    25% {background-color: #ca9c59;}
+    50% {background-color: #825b4c;}
+    75% {background-color: #ca9c59;}
+    100% {background-color: #825b4c;}
+}
+
+#sites{
+   font-size: 30px;
+   padding: 20px;
+}
+ #sites:link{
+   color: #ca98c7;
+}
+ #sites:visited{
+   color: #825b4c;
+}

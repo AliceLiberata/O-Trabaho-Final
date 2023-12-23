@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="xich.css">
+    <!--links bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="fundo">
+
+    <header class="backII">
+        <!--BOOTSTRAP-->
+        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#" id="titluII">NAVEGANDO - Matemática</a>
+
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Quadrado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Triângulo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading4">Circulo</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" id="navg">Menu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="port.html" id="navg">Português</a></li>
+                  <li><a class="dropdown-item" href="quiz.html" id="navg">Quiz Final</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="index.html" id="navg">Voltar</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <h2 class="titluII">Calcular Áreas</h2>
+          
+    </header>
+
+    <main>
+
+        <br>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"  tabindex="0" id="margem">
+
+          <h4 class="fontepc">Áreas</h4>
+
+           <h5 id="scrollspyHeading1" class="subtitulo">Quadrado</h5>
+            <p class="fonte">Para calcular a área de qualquer quadrado é simplesmente calcular "lado x lado" ou "base x altura". Simples, não?</p>
+            <p class="pisca" >Lado * Lado:</p>
+              <div class="quadros" >
+                <img id="im" src="Imagens/area-do-quadrado.png" alt="Exemplo">
+              </div>
+              <br>
+
+           <h5 id="scrollspyHeading2" class="subtitulo">Triângulo</h5>
+            <p class="fonte">Para calcular o triângulo é o mesmo esquema "Base x Altura" porém no final tudo é dividido por 2. Para saber a altura é preciso transformalo em um triângudo retângulo: basta pegar o maior lado(hipotenusa) dividido por 2, e igualar ele (=) com um dos lados(cateto), mais(+) a altura que é desconhecida(Y). Nessa conta todos devem estar elevado ao quadrado (^2).</p>
+            <p class="pisca">(D/2)² = L² + Y²</p>
+            <p class="fonte">Depois basta calcular:</p>
+            <p class="pisca">(D*Y) /2</p>
+              <div class="quadros" >
+                <img id="im" src="Imagens/triangulo-retangulo-formado-no-quadrado.png" alt="Exemplo">
+              </div>
+              <br>
+
+           <h5 id="scrollspyHeading4" class="subtitulo">Círculo</h5>
+            <p class="fonte">Para a área do círculo é calcular "PI * Raio", o raio é sempre elevado ao quadrado.</p>
+            <p class="pisca">PI(π) = 3,14159...</p>
+            <p class="fonte">O valor de PI pode ser "arredondado" ou com outro valor considerado. Isso é específicado no momento. </p>
+            <p class="pisca">π * R²</p>
+            <div class="quadros" >
+              <img id="im" src="Imagens/raio-da-circunferencia-circunscrita-no-quadrado.png" alt="Exemplo">
+            </div>
+          </div>
+
+    </main>
+      <br>
+    <section>
+
+      <h6 id="aviso">Por enquanto é apenas isso pretendo colocar mais informações nesse site :)</h6>
+      <h6 id="aviso">Com isso visite esse site com melhor informação sobre o assunto:</h6>
+       <a href="https://blog.professorferretto.com.br/quadrado/" target="_blank" id="sites">Estude e se aprofunde na matemática</a>
+
+    </section>
+
+</body>
+</html>
